@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "super file system"
-  text: "super file system"
-  tagline: My great project tagline
+  name: "FileNexus"
+  text: "File Control System"
+  tagline: One click deployment, secure and worry free
   actions:
     - theme: brand
       text: Markdown Examples
