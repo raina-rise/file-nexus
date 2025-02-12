@@ -8,11 +8,11 @@ hero:
   tagline: One click deployment, secure and worry free
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: What is FileNexus
+      link: /what-is-file-nexus
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Quickstart
+      link: /getting-started
 
 features:
   - title: Feature A
