@@ -2,9 +2,9 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "super file system",
-  description: "super file system",
-  base: '/file-system-release/',
+  title: "FileNexus",
+  description: "File Control System",
+  base: '/file-nexus/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {
@@ -12,15 +12,15 @@ export default defineConfig({
     },
     nav: [
       { text: "Home", link: "/" },
-      { text: "Guide", link: "/what-is-super-file-system" },
+      { text: "Guide", link: "/what-is-file-nexus" },
     ],
     sidebar: [
       {
         text: "Introduction",
         items: [
           {
-            text: "What is super file system",
-            link: "/what-is-super-file-system",
+            text: "What is file nexus",
+            link: "/what-is-file-nexus",
           },
           { text: "Getting Started", link: "/getting-started" },
         ],
@@ -29,7 +29,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/raina-rise/file-system-release",
+        link: "https://github.com/raina-rise/file-nexus",
       },
     ],
   },
