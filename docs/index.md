@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "FileNexus"
   text: "File Control System"
-  tagline: One click deployment, secure and worry free
+  tagline: Document approval, one click deployment, safe and efficient
   actions:
     - theme: brand
       text: What is FileNexus
@@ -13,13 +13,16 @@ hero:
     - theme: alt
       text: Quickstart
       link: /getting-started
+  image:
+      src: /logo.png
+      alt: FileNexus
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: One-click Deployment
+    details: Using Docker containers, the file management system can be installed and upgraded with just one line of code.
+  - title: Flexible Configuration
+    details: Integrated with a powerful backend management system, functionalities and permissions can be visualized and configured flexibly.
+  - title: Intuitive and Easy to Use
+    details: Say goodbye to complicated FTP commands and complex client installations. Simply open your browser to start using it. Convenient and easier to use.
 ---
 
