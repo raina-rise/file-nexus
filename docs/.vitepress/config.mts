@@ -64,4 +64,16 @@ export default defineConfig({
       },
     },
   },
+  head: [
+    // 添加百度统计的代码
+    ['script', { type: 'text/javascript' }, `
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?7a09c5c954896301949a882168885666";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+    `]
+  ]
 });
