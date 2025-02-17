@@ -23,6 +23,6 @@ features:
   - title: Flexible Configuration
     details: Integrated with a powerful backend management system, functionalities and permissions can be visualized and configured flexibly.
   - title: Intuitive and Easy to Use
-    details: Say goodbye to complicated FTP commands and complex client installations. Simply open your browser to start using it. Convenient and easier to use.
+    details: Say goodbye to complicated FTP commands and complex client installations. Simply open your browser to start using it. It's Convenient and easier to use.
 ---
 
