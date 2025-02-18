@@ -7,6 +7,7 @@ export default defineConfig({
   base: "/file-nexus/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: { src: '/logo.png', width: 36, height: 24 },
     search: {
       provider: "local",
     },
@@ -37,6 +38,15 @@ export default defineConfig({
               { text: "Getting Started", link: "/getting-started" },
             ],
           },
+          {
+            text: "Configuration",
+            items: [
+              {
+                text: "Manage FTP User",
+                link: "/manage-ftp-user",
+              },
+            ],
+          },
         ],
       },
     },
@@ -60,11 +70,21 @@ export default defineConfig({
               { text: "快速开始", link: "/zh/getting-started" },
             ],
           },
+          {
+            text: "配置",
+            items: [
+              {
+                text: "管理FTP用户",
+                link: "/zh/manage-ftp-user",
+              },
+            ],
+          },
         ],
       },
     },
   },
   head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/file-nexus/logo.png' }],
     // 添加百度统计的代码
     ['script', { type: 'text/javascript' }, `
       var _hmt = _hmt || [];
